@@ -43,8 +43,7 @@ a:active {
   z-index: -99;
   border: none;
   zoom: 50%;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+
 }
 
 a:hover {
