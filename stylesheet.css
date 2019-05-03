@@ -88,12 +88,25 @@ a:hover {
   rotate: 45deg;
 }
 
+.bottom-line {
+  display: block;
+
+  width:100vw;
+  height:50px;
+  border-bottom:1px
+  solid black;
+
+  position: relative;
+  left: -48px;
+
+}
 .footer {
-  position:fixed;
-  bottom:20px;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 30px;
 
   display: grid;
-  grid-template-columns: 800px 100px;
+  grid-template-columns: 70vw 1fr;
   grid-gap: 10px;
 
 
