@@ -64,17 +64,19 @@ a:active {
   padding-left: 3px;
   padding-right: 3px;
   padding-bottom: 2px;
+
+  margin: 0;
 }
 
 
 
 .iframe {
-  position: absolute;
+  z-index: -1;
+  position: fixed;
   width: 100vw;
   height: 100vh;
   top: 0;
   left: 0;
-  z-index: -99;
   border: none;
 }
 
