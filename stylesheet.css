@@ -6,9 +6,9 @@
 
 body {
   padding-right: 15px;
-  padding-left: -10px;
+  padding-left: 0px;
 
-  width: 88vw;
+  width: 90vw;
 }
 
 p {
@@ -35,34 +35,48 @@ a {
   padding-bottom: -3px;
 }
 
-a:hover+.iframe-box,
-.iframe-box:hover {
-  display: inline-block;
-  float: left;
+a:hover{
+  color: white;
+  background-color: black;
 }
 
 a:active {
   color: black;
 }
 
-.iframe-box {
-  display: none;
-  position: fixed;
+
+
+.updates {
+  background-color: : blue;
+}
+
+.Category {
+  font-family: monospace;
+  font-weight: 300;
+  font-size: 10px;
+
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+
+  padding-top: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+}
+
+
+
+.iframe {
+  position: absolute;
   width: 100vw;
   height: 100vh;
   top: 0;
   left: 0;
   z-index: -99;
   border: none;
-  zoom: 50%;
-
 }
-
-a:hover {
-  color: white;
-  background-color: black;
-}
-
 
 
 .logo-top {
