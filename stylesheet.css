@@ -1,14 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Assistant');
+
 * {
   word-break: keep-all;
-  font-family: sans-serif;
-  font-weight: 500;
+  font-family: 'Assistant', sans-serif;
+  letter-spacing: 0.02rem;
+}
+
+#logo-top {
+  width: 90px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  left: calc(50vw - 45px);
+
+  position: relative;
+  display: inline-block;
+  margin-top: 3px;
 }
 
 body {
   padding-right: 15px;
   padding-left: 0px;
 
-  width: 90vw;
+  width: calc(100vw - 40px);
 }
 
 p {
@@ -23,18 +36,57 @@ h6 {
   line-height: 20px;
 }
 
+li {
+  display: inline;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+.Category {
+  letter-spacing: 0.08rem;
+  font-size: 9px;
+  line-height: 0px;
+
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+
+  padding: 0.25px 1.7px 0.25px 3px;
+  vertical-align: 9px;
+}
+
+.alpha {
+  letter-spacing: 0.08rem;
+  font-size: 9px;
+  line-height: 0px;
+
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+
+  padding: 0.25px 1.7px 0px 3px;
+  margin: 0px 2px 0px 5px;
+  vertical-align: 10px;
+}
+
 a {
   text-decoration: none;
   color: black;
   background-color: white;
   border: 1px solid black;
 
-  padding-top: 3px;
-  padding-left: 3px;
-  padding-right: 3px;
-  padding-bottom: -3px;
+  padding: 1px 3px 0px 4px;
 }
 
+#a-iframe {
+  color: none;
+  background-color: white;
+  border: none;
+}
+
+.Category, a {
+margin-right: 2px;
+}
 a:hover{
   color: white;
   background-color: black;
@@ -44,31 +96,9 @@ a:active {
   color: black;
 }
 
-
-
 .updates {
   background-color: : blue;
 }
-
-.Category {
-  font-family: monospace;
-  font-weight: 300;
-  font-size: 10px;
-
-  text-decoration: none;
-  color: white;
-  background-color: black;
-  border: 1px solid black;
-
-  padding-top: 1px;
-  padding-left: 3px;
-  padding-right: 3px;
-  padding-bottom: 2px;
-
-  margin: 0;
-}
-
-
 
 .iframe {
   z-index: -1;
@@ -80,51 +110,34 @@ a:active {
   border: none;
 }
 
-
-.logo-top {
-  width: 50%;
-  margin-bottom: -20px;
-  left: 25vw;
-
-  position: relative;
-  display: inline-block;
-}
-
-.list {
-  text-align: left;
-  justify-content: flex-start;
-  font-size: 20px;
-  line-height: 33px;
-  word-space: 10px;
-}
-
 .X {
   width: 100vw;
   height: 100vh;
   rotate: 45deg;
 }
+
 .studio-border {
   display: block;
 
   width: 100vw;
-  height:1px;
-  border-bottom:1.5px dashed black;
-  margin-top: 6px;
-  margin-bottom: 10px;
+  height: 1px;
+  border-bottom: 1.5px dashed black;
+  margin-top: 0px;
+  margin-bottom: 19px;
 
   position: relative;
-  left:-48px;
+  left: -48px;
 }
 
 .bottom-line {
   display: block;
 
-  width:100vw;
+  width:110vw;
   height:50px;
   border-bottom:1px solid black;
 
   position: relative;
-  left: -48px;
+  left: -20px;
 
 }
 .footer {
@@ -139,5 +152,5 @@ a:active {
 
   font-weight: 500;
   font-size: 12px;
-  line-height: 20px;
+  line-height: 16px;
 }
