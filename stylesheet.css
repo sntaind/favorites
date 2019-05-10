@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Assistant');
 
-@media (min:800px) {
-  body {
-  }
-}
-
-
 * {
   word-break: keep-all;
   font-family: 'Assistant', sans-serif;
@@ -15,7 +9,7 @@
 #logo-top {
   width: 90px;
   margin-top: 10px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   left: calc(50vw - 45px);
 
   position: relative;
@@ -62,7 +56,9 @@ li {
   border: 1px solid black;
 
   padding: 0.25px 1.7px 0.25px 3px;
-  vertical-align: 9px;
+  margin-right: 7px;
+
+  vertical-align: 7px;
 }
 
 .alpha {
@@ -79,13 +75,18 @@ li {
   vertical-align: 10px;
 }
 
-a {
+.a-cell {
   text-decoration: none;
   color: black;
   background-color: white;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  box-sizing: border-box;
+  height: 5px;
 
-  padding: 1px 3px 0px 4px;
+  padding: 0px 5px 1px 6px;
+  margin-right: 1px;
+
 }
 
 #a-iframe {
@@ -94,15 +95,12 @@ a {
   border: none;
 }
 
-.Category, a {
-margin-right: 2px;
-}
-a:hover{
+.a-cell:hover{
   color: white;
   background-color: black;
 }
 
-a:active {
+.a-cell:active {
   color: black;
 }
 
@@ -125,9 +123,9 @@ a:active {
 
   width: 100vw;
   height: 1px;
-  border-bottom: 1.5px dashed black;
+  border-bottom: 1px dashed black;
   margin-top: 0px;
-  margin-bottom: 19px;
+  margin-bottom: 11px;
 
   position: relative;
   left: -25px;
